@@ -5,7 +5,14 @@ image generator using plotly
 
 ### API server
 
-npx ts-node index.ts
+#### dev
+
+- npm run dev
+
+#### Release
+
+- npm run build
+- npm run start
 
 ### Call API
 

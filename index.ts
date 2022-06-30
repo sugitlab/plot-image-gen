@@ -52,7 +52,7 @@ function getHtml(value: number) {
         mock.data,
         mock.layout
       ).then(function(gd){
-        Plotly.toImage(gd,{height:300,width:300,format:"png"})
+        Plotly.toImage(gd,{height:400,width:500,format:"png"})
           .then(function(url){
             document.getElementById("export").innerHTML= url;
           })
